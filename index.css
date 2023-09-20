@@ -1,0 +1,26 @@
+div {
+  width: 400px;
+  height: 300px;
+  margin: 100px auto;
+  border: 1px solid black;
+  border-radius: 8px;
+  background-color: rgba(199, 218, 199, 0.122);
+}
+
+.inner {
+  width: 300px;
+  height: 150px;
+  background-color: rgb(125, 241, 125);
+  border: 1px solid rgb(239, 177, 177);
+  transform: skew(20deg);
+  border-radius: 8px;
+  margin: 20% auto;
+  transition: all 1s ease-in-out;
+}
+
+h2 {
+  text-shadow: 0px 0px 1px rgba(232, 132, 132, 0.5);
+  text-align: center;
+  margin: 0;
+  padding-top: 6px;
+}
